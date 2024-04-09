@@ -1,0 +1,26 @@
+:root {
+    --bs-body-font-family:"Roboto",sans-serif;
+    --bs-tertiary-bg-rgb:#28a745;
+    --color-font:#28a745;
+    --color-font2:#707070;
+    --size-font:1.2rem;
+}
+
+body {
+    font-family: var(--bs-body-font-family);   
+}
+
+.back-color {
+    background-color: var(--bs-tertiary-bg-rgb)!important;
+}
+
+
+.price {
+    color:var(--color-font);
+    font-size: var(--size-font);
+    font-weight: bold;
+}
+
+.color2 {
+    color:var(--color-font2);
+}
